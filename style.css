@@ -117,7 +117,6 @@ li {
   padding: 20px 0;
   border-bottom: 1px solid #eee;
   list-style: none;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -154,7 +153,8 @@ li>input[type="text"] {
 
 /* Completed */
 #complete-task label {
-  text-decoration: line-through color: #888;
+  text-decoration: line-through;
+  color: #888;
 }
 
 /* Edit Task */
