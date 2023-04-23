@@ -152,11 +152,11 @@ input[type=checkbox] {
 }
 
 /* Edit Task */
-li input[type=text] {
+li input[type="text"] {
   display: none;
 }
 
-.plan-task input[type=text] {
+.plan-task input[type="text"] {
   display: inline-block;
   width: 224px;
 }
